@@ -73,6 +73,6 @@ If you find errors, have suggestions for improvements, or want to contribute add
 [Mozilla Developer Network (MDN) JavaScript Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide).
 [W3Schools JavaScript Tutorial](https://www.w3schools.com/js/).
 
-If you have any questions or need assistance, you can reach out to me at [076-8774386].
+If you have any questions or need assistance, you can reach out to me at [076-8774386 (Whatsapp)].
 
 I hope you find this JavaScript lesson series valuable on your journey to becoming a skilled software engineer!
