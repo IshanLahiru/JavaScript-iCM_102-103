@@ -70,3 +70,14 @@ console.log(msg);
 
 */
 //////////////////////////////////////////////////
+//Flow controle (if/else Statements)
+
+let age = 15;
+
+if(age > 18) {
+    console.log(`You can get the driving lisance.`);
+}else if (age < 17){
+    console.log(`You can get the driving lisance in after the next birthday.`);
+}else{
+    console.log(`You can't get the driving lisance.`);
+}
