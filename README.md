@@ -35,7 +35,7 @@ To get started with the lesson series, follow these steps:
 
    -Replace yourusername with your actual GitHub username.
 
-3.**Stay Updated with Upstream**: Add a connection to the original repository (the one you forked from) as a remote repository. This allows you to pull in any future updates made to the original repository.
+3. **Stay Updated with Upstream**: Add a connection to the original repository (the one you forked from) as a remote repository. This allows you to pull in any future updates made to the original repository.
 
   ```sh
   git remote add upstream https://github.com/originalusername/javascript-lesson-series.git
@@ -44,16 +44,16 @@ To get started with the lesson series, follow these steps:
 
   -Replace originalusername with the GitHub username of the original repository.
 
-4.**Pull Updates**: To incorporate updates from the original repository into your forked repository, you can run:
+4. **Pull Updates**: To incorporate updates from the original repository into your forked repository, you can run:
 
 ```sh
 git pull upstream main
 ```
 -This command will fetch and merge any new changes from the original repository's main branch into your local repository.
 
-5.**Start Learning**: You're all set! Open the repository on your local machine and explore the lessons, code examples, exercises, and assignments. You can make changes, commit them, and track your progress as you work through the lessons.
+5. **Start Learning**: You're all set! Open the repository on your local machine and explore the lessons, code examples, exercises, and assignments. You can make changes, commit them, and track your progress as you work through the lessons.
 
-6.**Commit and Push Changes**: As you work on the lessons, you can commit your changes and push them to your forked repository on GitHub. This will help you keep track of your progress and showcase your completed work.
+6. **Commit and Push Changes**: As you work on the lessons, you can commit your changes and push them to your forked repository on GitHub. This will help you keep track of your progress and showcase your completed work.
 
 -By following these steps, you'll have your own personalized copy of the lesson series repository to learn and experiment with JavaScript concepts. If you have any questions or encounter issues, feel free to reach out for assistance.
 
@@ -70,7 +70,6 @@ If you find errors, have suggestions for improvements, or want to contribute add
 
 **Additional Resources**
 
-[MIT](https://choosealicense.com/licenses/mit/)
 [Mozilla Developer Network (MDN) JavaScript Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide).
 [W3Schools JavaScript Tutorial](https://www.w3schools.com/js/).
 
