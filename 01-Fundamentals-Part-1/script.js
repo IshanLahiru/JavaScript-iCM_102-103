@@ -56,4 +56,17 @@ const isFullAge = ageSarah >= 18;
 console.log(now - 1991 > now - 2018);
 
 */
+//////////////////////////////////////////////////
+//Strings and Template Literals
+/*
+let fName = 'Nimal';
+let lName = 'Sumanasiri';
+let age = 25;
 
+let msg = fName+" "+lName+" is "+age+" years old.";
+msg = `${fName} ${lName} is ${age} years old.`;
+
+console.log(msg);
+
+*/
+//////////////////////////////////////////////////
