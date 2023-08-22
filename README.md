@@ -31,10 +31,11 @@ To get started with the lesson series, follow these steps:
 
    ```sh
    git clone https://github.com/yourusername/javascript-lesson-series.git
+   ```
 
    -Replace yourusername with your actual GitHub username.
 
-  3.**Stay Updated with Upstream**: Add a connection to the original repository (the one you forked from) as a remote repository. This allows you to pull in any future updates made to the original repository.
+3.**Stay Updated with Upstream**: Add a connection to the original repository (the one you forked from) as a remote repository. This allows you to pull in any future updates made to the original repository.
 
   ```sh
   git remote add upstream https://github.com/originalusername/javascript-lesson-series.git
