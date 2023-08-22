@@ -1,4 +1,4 @@
-# JavaScript Lesson Series for Institute of Computer Engineering Technology
+# JavaScript Lesson Series for iCM 102-103
 
 Welcome to the JavaScript Lesson Series offered by the Institute of Computer Engineering Technology! This series aims to provide a comprehensive introduction to JavaScript, catering to both beginners and those with some programming experience. By the end of this series, you will have a solid foundation in JavaScript programming, enabling you to build dynamic and interactive web applications.
 
