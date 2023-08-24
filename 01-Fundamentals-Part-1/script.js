@@ -37,6 +37,10 @@ You declare variables using the var, let, or const keyword, followed by the vari
     const pi = 3.14;
 
     console.log(name);
+    
+//  ps:
+//      Remember that JavaScript is case-sensitive, 
+//      so myVariable and MyVariable are considered different variables.
 */
 
 ////////////////////////////////////////////////
