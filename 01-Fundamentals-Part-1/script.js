@@ -83,6 +83,60 @@
 // Basic operators
 
 /*
+// JavaScript supports a variety of operators that allow you to perform operations on values, variables, and expressions. Here are some of the basic operators in JavaScript:
+
+// Arithmetic Operators
+// --------------------
+
+//     +: Addition
+//     -: Subtraction
+//     *: Multiplication
+//     /: Division
+//     %: Modulus (remainder after division)
+//     **: Exponentiation (ES6)
+
+// Assignment Operators
+// --------------------
+
+//     =: Assign a value
+//     +=: Add and assign
+//     -=: Subtract and assign
+//     *=: Multiply and assign
+//     /=: Divide and assign
+//     %=: Modulus and assign
+//     **=: Exponentiation and assign (ES6)
+
+// Comparison Operators
+// --------------------
+
+//     ==: Equal to (value equality, type coercion)
+//     ===: Equal to (value and type equality)
+//     !=: Not equal to (value inequality, type coercion)
+//     !==: Not equal to (value or type inequality)
+//     <: Less than
+//     >: Greater than
+//     <=: Less than or equal to
+//     >=: Greater than or equal to
+
+// Logical Operators
+// -----------------
+
+//     &&: Logical AND
+//     ||: Logical OR
+//     !: Logical NOT
+
+// Unary Operators
+// ---------------
+
+//     +: Unary plus (converts its operand to a number)
+//     -: Unary minus (negates its operand)
+//     ++: Increment (increases the value by 1)
+//     --: Decrement (decreases the value by 1)
+
+// Ternary Operator
+// ----------------
+
+//     condition ? expressionIfTrue : expressionIfFalse: Conditional operator that returns different values depending on the condition.
 
 const now = 2037;
 const ageJonas = now - 1991;
