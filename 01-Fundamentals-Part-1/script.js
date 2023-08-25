@@ -171,14 +171,52 @@ console.log(now - 1991 > now - 2018);
 //////////////////////////////////////////////////
 //Strings and Template Literals
 /*
-let fName = 'Nimal';
-let lName = 'Sumanasiri';
-let age = 25;
 
-let msg = fName+" "+lName+" is "+age+" years old.";
-msg = `${fName} ${lName} is ${age} years old.`;
+// Strings are sequences of characters enclosed in single ('') or double ("") quotes in JavaScript. 
+// They are used to represent textual data. In addition to standard strings, 
+// JavaScript introduced a feature called template literals (template strings) 
+// in ECMAScript 6 (ES6), which provides a more powerful way to work with strings.
 
-console.log(msg);
+// You can create strings using single or double quotes:
+    let singleQuotes = 'Hello, world!';
+    let doubleQuotes = "JavaScript is awesome!";
+    let fName = 'Nimal';
+    let lName = 'Sumanasiri';
+    let age = 25;
+
+// You can also concatenate strings using the + operator:
+    let msg = fName+" "+lName+" is "+age+" years old.";
+
+// Template literals (Template Strings)
+// ------------------------------------
+
+//  Template literals provide a more flexible way to work with strings. They are enclosed in backticks (``) instead of single or double quotes:
+
+    msg = `${fName} ${lName} is ${age} years old.`;
+
+//  Template literals allow you to embed expressions within ${}. The expressions are evaluated and their values are inserted into the string.
+//  You can include line breaks and multi-line strings directly within template literals:
+
+    let multiline = `
+    This is a
+    multi-line
+    string.`;
+
+//  Template literals also support tagging, which allows you to process the template with a function before the final string is formed.
+
+    const result = tagFunction`template literal parts ${expression}`;
+
+
+
+     let product = "JavaScript Course";
+     let price = 49.99;
+     let discount = 10;
+
+     let productInfo = `Product: ${product}
+     Price: $${price}
+     Discount: ${discount}%`;
+
+    console.log(productInfo);
 
 */
 //////////////////////////////////////////////////
