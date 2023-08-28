@@ -222,6 +222,41 @@ console.log(now - 1991 > now - 2018);
 //////////////////////////////////////////////////
 //Flow controle (if/else Statements)
 /*
+
+if Statements:
+==============
+
+An `if` statement allows you to execute a block of code if a given condition is true. If the condition is false, the block of code is skipped.
+
+if (condition) {
+    // Code to execute if the condition is true
+}
+
+if-Else Statements:
+===================
+
+An `if-else` statement allows you to execute one block of code if a condition is true and another block of code if the condition is false.
+
+if (condition) {
+    // Code to execute if the condition is true
+}else{
+    // Code to execute if the condition is false
+}
+
+Else-if Statements:
+===================
+
+you can extend the 'if-else' structure with `else if` clauses to handle multiple conditions. the code inside the first true condition block will be executed.
+
+if (condition1) {
+    // Code to execute if condition1 is true
+}else if (condition2){
+    // Code to execute if condition2 is true
+}else {
+    // Code to execute if no condition is true
+}
+
+
 let age = 15;
 
 if(age > 18) {
