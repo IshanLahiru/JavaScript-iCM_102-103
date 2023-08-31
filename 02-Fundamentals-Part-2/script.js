@@ -242,7 +242,7 @@ const vimal = [
 
 console.log(vimal[3]);
 */
-
+/*
 const vimal = {
     firstName: 'Vimal',
     lastName: 'Sanjeewa',
@@ -251,5 +251,33 @@ const vimal = {
 };
 
 console.log(vimal.firstName);
-
+*/
 ///////////////////////////////////////////////
+// Dot and Bracket Notation
+
+const vimal = {
+    firstName: 'Vimal',
+    lastName: 'Sanjeewa',
+    age: 23,
+    occupation: 'Student'
+};
+
+//Dot notation
+console.log(vimal.firstName);//Vimal
+
+//bracket notation
+console.log(vimal['lastName'])//Sanjeewa
+
+let s = `lastName`;
+console.log(vimal[s]);
+
+let keys = ['firstName','lastName','age','occupation'];
+
+console.log('/////////////////////////');
+
+keys.forEach(e => {
+    console.log(`${e} : ${vimal[e]}`); 
+});
+
+///////////////////////////////////////
+//Object Methods
