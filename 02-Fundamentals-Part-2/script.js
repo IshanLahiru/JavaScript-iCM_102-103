@@ -141,18 +141,26 @@ function myFunction() {
 //////////////////////////////////////////////////////////
 // Arrays
 
+// Arrays are the fundamental data structure in JavaScript used to store collections of values, 
+// whether they are numbers, strings, Objects, or even other arrays. JavaScript arrays are dynamic 
+// and can change in size (grow or shrink)during requestAnimationFrame.
+
 const friend1 = `Nimal`;
 const friend2 = `Kamal`;
 const friend3 = `sunil`;
 
+// Using array literals 
 let friends = [`Nimal`,`Kamal`,`Sunil`];
 
 console.log(friends);
 console.log(friends[0]);
 console.log(friends.length);
 
+// Using the array constructor
 friends = new Array(`Danapala`,`Gunapala`,`Somapala`);
 
+
+// Modifying Elements
 console.log(friends);
 friends[0] = `Ajith`;
 console.log(friends);
