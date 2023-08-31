@@ -144,37 +144,41 @@ function myFunction() {
 // Arrays are the fundamental data structure in JavaScript used to store collections of values, 
 // whether they are numbers, strings, Objects, or even other arrays. JavaScript arrays are dynamic 
 // and can change in size (grow or shrink)during requestAnimationFrame.
-
+/*
 const friend1 = `Nimal`;
 const friend2 = `Kamal`;
 const friend3 = `sunil`;
-
+*/
 // Using array literals 
+/*
 let friends = [`Nimal`,`Kamal`,`Sunil`];
 
 console.log(friends);
 console.log(friends[0]);
 console.log(friends.length);
-
+*/
 // Using the array constructor
+/*
 friends = new Array(`Danapala`,`Gunapala`,`Somapala`);
 
-
+*/
 // Modifying Elements
+/*
 console.log(friends);
 friends[0] = `Ajith`;
 console.log(friends);
 
 friends[0] = document.getElementById(`name`).attributes.defaultValue.nodeValue;
 console.log(friends);
-
+*/
 //add element
+/*
 friends.push(`yasapala`);
 
 friends.unshift(`pathirana`);
-
+*/
 //remove element
-
+/*
 friends.pop();
 
 friends.shift();
@@ -182,10 +186,10 @@ friends.shift();
 console.log(friends);
 
 console.log(friends.includes(`k`));
-
+*/
 /////////////////////////////////////////////
 //looping Array
-
+/*
 for(let i = 0; i < friends.length;i++){
     console.log(friends[i]);
 }
@@ -203,3 +207,49 @@ do{
 }
 while(j!=friends.length-1);
 
+*/
+
+//coding challange (bubble sort)
+
+let ar = [52,74,36,58,96,32,56,41];
+
+console.log(ar);//[52, 74, 36, 58, 96, 32, 56, 41]
+//your code 
+
+function sortAr(ar){
+    for(let i = 0 ; i < ar.length ; i++){
+        for (let j = 0 ; j < (ar.length-i-1); j++){
+            if(ar[j] > ar[j+1]){
+                let temp = ar[j];
+                ar[j] = ar[j+1];
+                ar[j+1] = temp;
+            }
+        }
+    }
+    return ar;
+}
+console.log(sortAr(ar));//[ 32, 36, 41, 52, 56, 58, 74, 96]
+
+///////////////////////////////////////////////////////////
+// Introduction to objects
+/*
+const vimal = [
+    'Vimal',
+    'Sanjeewa',
+    '23',
+    'Student'
+];
+
+console.log(vimal[3]);
+*/
+
+const vimal = {
+    firstName: 'Vimal',
+    lastName: 'Sanjeewa',
+    age: 23 ,
+    occupation: 'Student' 
+};
+
+console.log(vimal.firstName);
+
+///////////////////////////////////////////////
