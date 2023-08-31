@@ -254,7 +254,7 @@ console.log(vimal.firstName);
 */
 ///////////////////////////////////////////////
 // Dot and Bracket Notation
-
+/*
 const vimal = {
     firstName: 'Vimal',
     lastName: 'Sanjeewa',
@@ -278,6 +278,28 @@ console.log('/////////////////////////');
 keys.forEach(e => {
     console.log(`${e} : ${vimal[e]}`); 
 });
-
+*/
 ///////////////////////////////////////
 //Object Methods
+
+const vimal = {
+    firstName: 'Vimal',
+    lastName: 'Sanjeewa',
+    age: 23,
+    occupation: 'Student',
+    fullName: function(){
+        return this.firstName+` `+this.lastName;
+    },
+    canGetDrivingLisance: function(){
+        return (this.age >= 18) ? `Yes, ${this.fullName()} is ${this.age} years old. So he can get the driving lisance.` : `No, ${this.fullName()} is ${this.age} years old. So he can't get the driving lisance.`;
+    } 
+};
+
+console.log(vimal.fullName());
+console.log(vimal.canGetDrivingLisance());
+// Yes, Vimal Sanjeewa is 23 years old. So he can get the driving lisance.
+vimal.age = 12;
+console.log(vimal.canGetDrivingLisance());
+// No , Vimal Sanjeewa is 12 years old. So he can't get the driving lisance.
+console.log(vimal.age);
+
