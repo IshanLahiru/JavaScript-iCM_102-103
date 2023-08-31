@@ -303,3 +303,61 @@ console.log(vimal.canGetDrivingLisance());
 // No , Vimal Sanjeewa is 12 years old. So he can't get the driving lisance.
 console.log(vimal.age);
 
+console.log(vimal);
+
+//es6 classes
+/*
+class Person{
+    constructor(firstName, lastName, age, occupation){
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
+        this.occupation = occupation;
+    }
+}
+Person.prototype.fullName = function () {
+    return `${this.firstName} ${this.lastName}`;
+}
+
+let kasun = new Person('Kasun','Saliya',26,'Driver');
+
+console.log(kasun);
+*/
+
+//create a es6 class Person
+// it should contain firstName, lastName, age, occupation, friends (array)
+// friends array should contain strings
+
+class Person {
+    constructor(firstName, lastName, age, occupation, friends = []) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
+        this.occupation = occupation;
+        this.friends = friends;
+    }
+}
+
+Person.prototype.friendNames = function () {
+    let str = "";
+    for (let index = 0; index < this.friends.length; index++) {
+        if (index > 0) {
+            str += ", ";
+        }
+        str += this.friends[index];
+    }
+    return str;
+}
+
+let people = new Array();
+people.push(new Person("Inama", "Mawillmada", 12, "Student", ["John", "Ann", "Rose"]));
+people.push(new Person("Sethuli", "Mawillmada", 15, "Student", ["Rick", "Josph", "Lily"]));
+people.push(new Person("Asanka", "Mawillmada", 20, "Student", ["Clara", "Cloey", "Adrien"]));
+
+people.forEach(element => {
+    console.log(`${element.firstName}'s friends: ${element.friendNames()}`);
+})
+
+
+
+
