@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,13 +6,20 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <title>Document</title>
 </head>
-<body class="bg-light">
-    <div class="container center-align">
-        <h1 id="heading">hi</h1>
-        <h1 id="heading">hi</h1>
-        <h1 id="heading">hi</h1>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">To-Do List</h1>
+        <div class="input-group mb-3">
+            <input type="text" id="taskInput" class="form-control" placeholder="Add a new task">
+            <div class="input-group-append">
+                <button id="addTask" class="btn btn-primary">Add</button>
+            </div>
+        </div>
+    <ul class="list-group" id="taskList">
+        <!-- add tasks list -->
+    </ul>
     </div>
+    
     <script src="app.js"></script>
 </body>
-</html> -->
-
+</html>
